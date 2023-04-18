@@ -30,8 +30,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.x
         - 2.x
+        - 1.x
     validations:
       required: true
   - type: dropdown
@@ -42,8 +42,23 @@ body:
       options:
         - Apple
         - Android
-  - type: textarea
+  - type: text
     id: make-model
     attributes:
       label: What make and model is your device?
       description: Input your specific device make and model
+  - type: text
+    id: country
+    attributes:
+      label: What country are you in?
+      description: Please enter your country
+  - type: text
+    id: language
+    attributes:
+      label: What is your device's default language?
+      description: Input your devices default language
+  - type: dropdown
+    id: connectivity
+    attributes:
+      label: Were you connected to the internet?
+      description: At the time of the issue, were you connected to the internet?
