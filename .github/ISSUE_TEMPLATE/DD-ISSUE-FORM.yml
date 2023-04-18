@@ -72,7 +72,7 @@ body:
       description: At the time of the issue, were you connected to the internet?
       multiple: false
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
