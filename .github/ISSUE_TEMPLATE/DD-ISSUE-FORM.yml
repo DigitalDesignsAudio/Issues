@@ -58,7 +58,7 @@ body:
       description: Please enter your country
       validations:
       required: true
-- type: input
+  - type: input
     id: language
     attributes:
       label: What is your device's default language?
