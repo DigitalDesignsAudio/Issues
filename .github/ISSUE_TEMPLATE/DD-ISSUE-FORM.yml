@@ -36,9 +36,9 @@ body:
     validations:
       required: true
   - type: input
-    id: version
+    id: app-version
     attributes:
-      label: Version
+      label: Application Version
       description: What version of our software are you running?
     validations:
       required: true
