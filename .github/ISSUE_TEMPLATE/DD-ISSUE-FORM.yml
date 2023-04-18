@@ -42,17 +42,17 @@ body:
       options:
         - Apple
         - Android
-  - type: text
+  - type: input
     id: make-model
     attributes:
       label: What make and model is your device?
       description: Input your specific device make and model
-  - type: text
+  - type: input
     id: country
     attributes:
       label: What country are you in?
       description: Please enter your country
-  - type: text
+  - type: input
     id: language
     attributes:
       label: What is your device's default language?
