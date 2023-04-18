@@ -66,6 +66,13 @@ body:
     validations:
       required: true
   - type: input
+    id: os-version
+    attributes:
+      label: What device OS version are you using?
+      description: Input your specific device OS version
+    validations:
+      required: true
+  - type: input
     id: make-model
     attributes:
       label: What make and model is your device?
