@@ -75,15 +75,15 @@ body:
   - type: input
     id: country
     attributes:
-      label: What country are you in?
+      label: What country is your device set to?
       description: Input your device country
     validations:
       required: true
   - type: input
     id: language
     attributes:
-      label: What is your device's default language?
-      description: Input your device default language
+      label: What language is your device set to?
+      description: Input your device language
     validations:
       required: true
   - type: dropdown
