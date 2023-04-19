@@ -48,6 +48,7 @@ body:
       label: Module
       description: Which Toolbox module experienced a bug?
       options:
+        - App Wide
         - DD Box Calculator
         - Power Calculator
         - Tone Generator
