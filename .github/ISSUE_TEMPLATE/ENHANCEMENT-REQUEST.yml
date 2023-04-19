@@ -5,7 +5,8 @@ labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: ""
+      value: |
+        Thanks for helping us improve our products!
   - type: input
     id: contact
     attributes:
